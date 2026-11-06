@@ -1,0 +1,6 @@
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.gguf
+results/
