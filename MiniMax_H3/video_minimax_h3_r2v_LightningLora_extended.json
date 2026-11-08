@@ -190,32 +190,21 @@
             "directory": "vae",
             "model_precision": "INT8",
             "tags": [
-              "INT8_CONVROT"
+              "INT8_CONVROT",
+              "NVFP4"
             ],
             "hash": "52a2c8c73583c86e4f41cdcce3a6ad0ea562987bc0bf3d60a0cef5f5c8e60c0e",
             "hash_type": "sha256"
           },
           {
-            "name": "qwen3vl_32b_minimax_h3_bf16.safetensors",
+            "name": "minimax_h3_video_vae_fp16.safetensors",
             "model_precision": "BF16",
             "tags": [
               "FP16"
             ],
-            "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/text_encoders/qwen3vl_32b_minimax_h3_bf16.safetensors",
+            "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_video_vae_fp16.safetensors",
             "directory": "vae",
-            "hash": "600d567f6a9629c8574e8e7041b199bdd9c59a986afa7906910a81919610607d",
-            "hash_type": "sha256",
-            "field": "vae_name"
-          },
-          {
-            "name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
-            "model_precision": "NVFP4",
-            "tags": [
-              "NVFP4"
-            ],
-            "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
-            "directory": "vae",
-            "hash": "35a88d51044231fe332301d7a62aa81e3f2cba62febeb446e2c1e3e0ef76f2c6",
+            "hash": "7c1f131492e7eddacaac9069a61b81bdd39de5cc96561e677c5eab1cdce5e522",
             "hash_type": "sha256",
             "field": "vae_name"
           }
@@ -1094,7 +1083,7 @@
             "name": "red_superboy_on_city_roof.png",
             "directory": ".",
             "field": "image",
-            "url": "https://github.com/Comfy-Org/workflow_templates/resolve/main/input/red_superboy_on_city_roof.png",
+            "url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/input/red_superboy_on_city_roof.png",
             "tags": [
               "ALL"
             ]
@@ -1187,7 +1176,7 @@
             "name": "mecha_dragon_lightning.png",
             "directory": ".",
             "field": "image",
-            "url": "https://github.com/Comfy-Org/workflow_templates/resolve/main/input/red_superboy_on_city_roof.png",
+            "url": "https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/input/mecha_dragon_lightning.png",
             "tags": [
               "ALL"
             ]
